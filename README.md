@@ -1,4 +1,4 @@
-# Best vacation
+# The Best vacation
 [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 A tool that underpins the best days to take holiday days to find the most profitable and longest permanently holiday sequence.
