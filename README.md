@@ -27,7 +27,32 @@ A tool that underpins the best days to take holiday days to find the most profit
 
 
 
+---------
 
+## Quick start
+
+1. clone repo.
+```
+git clone https://github.com/CuberHuber/best-vacation.git
+```
+2. setup python 3.11.* interpreter.
+3. install dependencies (via make):
+```
+make setup
+```
+or (via classic way):
+```
+pip install -r requirements.txt
+```
+4. for testing (via make)
+```
+make test
+```
+or (via classic way):
+```
+pytest -v
+```
+5. Welcome and let's use the tool
  
 
 
