@@ -1,7 +1,10 @@
+from functools import cache
+
 from the_best_vacation.data import Sequence
 
 
-def find_sequences(arr: list, target) -> list[Sequence]:
+@cache
+def find_sequences(arr: tuple, target) -> list[Sequence]:
     sequences = []
     current_count = 0
     start_index = -1

@@ -14,6 +14,6 @@ class Suggestion:
     def __init__(self, days: list[datetime.date], vacation: list[datetime.date]):
         assert isinstance(days, list) and isinstance(vacation, list)
         assert len(vacation) <= len(days)
-        assert set(vacation) in set(days)
+        assert set(vacation).issubset(set(days))
         self.all_days = days
         self.vacation_days = vacation
