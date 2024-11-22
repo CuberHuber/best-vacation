@@ -17,3 +17,6 @@ class Suggestion:
         assert set(vacation).issubset(set(days))
         self.all_days = days
         self.vacation_days = vacation
+
+    def __len__(self):
+        return len(self.all_days)
